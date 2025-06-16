@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family: figtree;
+}
+.box{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.content{
+    background-color: hsl(0, 0%, 100%);
+    width:22%;
+    height:65%;
+    padding:10px;
+    border-radius: 25px;
+    border:2px solid black;
+    box-shadow:10px 10px  black;
+    
+}
+
+img{
+    border-radius: 25px;
+    width:95%;
+    padding:10px;
+}
+.Learning{
+    background-color: hsl(47, 88%, 63%);
+    width:25%;
+    margin:10px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Learning p{
+    padding:7px 10px;
+    font-weight:800;
+}
+#Published{
+    padding-left:10px;
+    padding-top:5px;
+    font-weight:500;
+    font-size:15px;
+}
+#subject{
+    padding-left:10px;
+    font-size:25px;
+    font-weight: 800;
+    padding:10px;
+}
+.backbone{
+    padding-left:10px;
+    font-weight: 500;
+    color:hsl(0, 0%, 42%);
+    font-size:17px;
+    line-height: 1.5;
+}
+#avatar{
+    height: 50px;
+    width:50px;
+}
+#author{
+    padding-top:25px;
+    padding-left:5px;
+    font-weight: 800;
+}
+
+.about{
+    display:flex;
+    flex-direction: row;
+}
