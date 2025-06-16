@@ -29,6 +29,7 @@ img{
     border-radius: 25px;
     width:95%;
     padding:10px;
+    padding-bottom:0px;
 }
 .Learning{
     background-color: hsl(47, 88%, 63%);
@@ -40,7 +41,7 @@ img{
     align-items: center;
 }
 .Learning p{
-    padding:7px 10px;
+    padding:5px  10px;
     font-weight:800;
 }
 #Published{
